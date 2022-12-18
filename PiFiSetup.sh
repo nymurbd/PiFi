@@ -1,8 +1,7 @@
 #!/bin/sh
 #This script create for auto setup Raspberry Pi 3 WiFi Router
 # Author - Nymur Rahhman
-# www.techchip.net
-# www.youtube.com/techchipnet
+
 clear
 /bin/cat <<'Nymur'
       ___           ___           ___           ___           ___     
@@ -29,7 +28,7 @@ read -r -p "This script make change your system's network configurations files, 
 
 case "$check" in
 [nN][oO]|[nN])
-echo "Thank you!! have a nice day ;) don't forget subscribe TechChip Youtube Channel"
+echo "Thank you!! have a nice day ;) "
 exit 1
 ;;
 *)
@@ -133,7 +132,7 @@ echo ""
 echo "Configuration is completed"
 echo "Reboot your system for start PiFi(Raspberry Pi WiFi Router)"
 echo ""
-echo "Don't forget to subscribe TechChip Youtube channel"
+echo "Thanks For visit my project"
 echo ""
 read -p "Press [Enter] key to reboot or terminate here, press (ctrl+c).." chk
 sudo reboot
