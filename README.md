@@ -27,3 +27,4 @@ PiFi is simple bash script for turn your Raspberry Pi 3 B/B+, Raspberry Pi Zero 
 10. Enter your SSID password : "example12345678"
 
 11.Reboot your RaspberryPi
+
